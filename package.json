@@ -1,0 +1,27 @@
+{
+  "name": "fb-group-image-extractor",
+  "version": "1.0.0",
+  "description": "Takes a fb group url as a param and returns the recently posted images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantoshNayak/fb-group-image-extractor.git"
+  },
+  "keywords": [
+    "fb",
+    "image",
+    "extract"
+  ],
+  "author": "Santosh Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantoshNayak/fb-group-image-extractor/issues"
+  },
+  "homepage": "https://github.com/SantoshNayak/fb-group-image-extractor#readme",
+  "dependencies": {
+    "puppeteer": "^20.4.0"
+  }
+}
