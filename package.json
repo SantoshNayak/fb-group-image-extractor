@@ -1,6 +1,6 @@
 {
   "name": "fb-group-image-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Takes a fb group url as a param and returns the recently posted images",
   "main": "index.js",
   "scripts": {

@@ -22,8 +22,9 @@ async function getGroupImages(groupUrl, count) {
   }, imageClassNames, count);
 
   await browser.close();
-
-  return imageUrls;
+  // Remove the first two images from the response as they are group cover images
+  const finalImageUrls = imageUrls.slice(2);
+  return finalImageUrls;
 }
 
 module.exports = getGroupImages;
