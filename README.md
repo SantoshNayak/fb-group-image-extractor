@@ -5,7 +5,7 @@ Extract the recently posted images from a facebook group
 
 ## Installation
 
-Install my-project with npm
+Install  package with npm
 
 ```bash
   npm i fb-group-image-extractor
